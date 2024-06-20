@@ -42,7 +42,7 @@ function gotResult(error, results) {
     }
 }
 
-function start()
+function Start()
 {
     objectDetector = ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML = "status : Detecting Object";
